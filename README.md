@@ -1,0 +1,1 @@
+# -Labirinth-Fastest-Path-Algorithm
