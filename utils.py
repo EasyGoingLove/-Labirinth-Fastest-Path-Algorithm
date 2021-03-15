@@ -26,7 +26,7 @@ def main_labirint (quantity,rows,cols,start_node,end_node):
                labirint_dimensions[x][y] = "E"
 
 
-           print(labirint_dimensions[x][y], end=" ")
+           print(labirint_dimensions[x][y],"", end=" ")
        print()
     return labirint_dimensions
 

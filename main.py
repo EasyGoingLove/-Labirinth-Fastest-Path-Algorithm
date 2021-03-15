@@ -3,19 +3,16 @@ from solution import Solution
 
 
 def draw_final_product (full_labirint,full_solution,rows,cols,end_node):
-  a = 0
-
   for x in range(0, rows):
     for y in range(0, cols):
       if full_solution[a]==(x,y) and (x,y)!= end_node:
-        a+=1
         print(full_solution[x])
         print((x,y))
         full_labirint[x][y] = "*"
 
   for x in range(0, rows):
     for y in range(0, cols):
-      print(full_labirint[x][y], end=" ")
+      print(full_labirint[x][y],"",end=" ")
     print()
 
 
@@ -36,7 +33,7 @@ print("For y :")
 y = int(input())
 start_node = (x, y)
 
-print("Enter the x and y cordinates for the variable 'goal_node':")
+print("Enter the x and y cordinates for the variable 'end_node':")
 print("For x :")
 x = int(input())
 print("For y :")
